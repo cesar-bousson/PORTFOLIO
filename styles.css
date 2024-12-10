@@ -74,7 +74,7 @@ body{
     display: none;
 }
 /* ------------------------------------- */
-/* @media (max-width: 1024px){
+@media (max-width: 1024px){
     html {
         display: flex;
         font-size: 40%;
@@ -86,7 +86,8 @@ body{
         gap: 50px;
     }
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 760px)
+{
     html {
         display: flex;
         font-size: 30%;
@@ -95,13 +96,18 @@ body{
     .home-content {
         gap: 40px;
     }
-    img {
+    .home-img img {
         margin-right: 20em;
     }
     #menu-icon {
         display: inline-block;
-        
-} */
+    } 
+    .wrapper img {
+        font-display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+} 
 
 /*3 ------------------------------------- */
 section{
@@ -231,7 +237,7 @@ span{
     position: relative;
 }
 .text-animation span::before{
-    content: "Aspirant Développeur Web";
+    content: "Aspirant White Hacker";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -253,23 +259,23 @@ span{
 @keyframes words {
     0%,
     20% {
-        content: "Aspirant Développeur Web";
+        content: "Aspirant White Hacker";
     }
     21%,
     40%{
-        content: "Aspirant Spécialiste en Cybersécurité";
+        content: "Aspirant Architecte en Cybersécurité";
     }
     41%,
     60%{
-        content: "Aspirant Développeur Application,";
+        content: "Aspirant Développeur Logiciel";
     }
     61%,
     80%{
-        content: " Aspirant Développeur Java,";
+        content: " Aspirant Développeur Application";
     }
     81%,
     100%{
-        content: "Aspirant Développeur Full-Stack,";
+        content: "Aspirant Développeur Full-Stack";
     }
 }
 @keyframes typing {
